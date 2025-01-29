@@ -88,7 +88,7 @@
 
     <!-- Postal Address -->
     <entity entity-name="PostalAddress" package="party">
-        <field name="contactMechId" type="id"/>
+        <field name="contactMechId" type="id"  is-pk="true"/>
         <field name="toName" type="text-medium"/>
         <field name="attnName" type="text-medium"/>
         <field name="address1" type="text-medium"/>
@@ -103,7 +103,7 @@
 
     <!-- Telecommunication Number -->
     <entity entity-name="TelecomNumber" package="party">
-        <field name="contactMechId" type="id"/>
+        <field name="contactMechId" type="id" is-pk="true"/>
         <field name="countryCode" type="text-medium"/>
         <field name="areaCode" type="text-medium"/>
         <field name="contactNumber" type="text-medium"/>
